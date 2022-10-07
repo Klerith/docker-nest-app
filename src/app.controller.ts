@@ -16,4 +16,11 @@ export class AppController {
       world: 'Hello',
     };
   }
+
+  @Get('hola')
+  getHolaMundo() {
+    return {
+      hola: 'mundo',
+    };
+  }
 }
